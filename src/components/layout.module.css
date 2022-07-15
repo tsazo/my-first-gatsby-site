@@ -11,9 +11,11 @@
     display: flex;
     list-style: none;
     padding-left: 0;
+
   }
   .nav-link-item {
     padding-right: 2rem;
+    text-decoration: none;
   }
   .nav-link-text {
     color: black;

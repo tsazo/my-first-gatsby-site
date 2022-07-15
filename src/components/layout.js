@@ -13,7 +13,7 @@ const Layout = ({ pageTitle, children }) => {
     <div className={container}>
       <title>{pageTitle}</title>
       <nav>
-        <ul className={nav-navLinks}>
+        <ul className={navLinks}>
             <li className={navLinkItem}>
                 <Link to="/" className={navLinkText}>
                     Home
@@ -28,7 +28,7 @@ const Layout = ({ pageTitle, children }) => {
       </nav>
       <main>
         <h1 className={heading}>{pageTitle}</h1>
-        <span style={paragraphStyles}>{children}</span>
+        <span>{children}</span>
       </main>
     </div>
   )
