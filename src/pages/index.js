@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from 'gatsby'
 
 // styles
 const pageStyles = {
@@ -131,8 +132,9 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Building a site.
+        Welcome to my Gatsby site!
       </h1>
+      <Link to="/about">About</Link>
       <p style={paragraphStyles}>
         I'm making this by following the Gatsby Tutorial.
         <span role="img" aria-label="Sunglasses smiley emoji">
